@@ -63,10 +63,6 @@ a:hover {
 	font-weight: 600;
 }
 
-.pBold {
-	font-weight: 600;
-}
-
 .hidden
 {
 	display: none;
@@ -104,9 +100,10 @@ a:hover {
 #logo
 {
 	padding-top: 20px;
-	width: 330px;
-	height: 180px;
+	width: 200px;
+	height: 160px;
 	padding-left: 20px;
+	padding-bottom: 10px;
 }
 
 #mainNav 
@@ -183,25 +180,42 @@ a:hover {
 {
 	display: flex;
 	flex-direction: row;
-  	justify-content: center;
+  	justify-content: space-around;
 	border-bottom: solid 1px #DDD;
 	flex-wrap: wrap;
+	width: 650px;
+	margin: 0 auto;
 }
 
 .productDesc 
 {
-	margin-right: 40px;
-	margin-bottom: 30px;
 	width: 285px;
 	height: 430px;
+	padding-bottom: 50px;
 }
 
 /* Close Menu */
 
 /* Open Contact */
+#contentCon {
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
 
+#content1 
+{
+	width: 440px;
+}
 
-
+#content2 
+{
+	margin-left: auto;
+	width: 440px;
+}
 /* Close Contact */
 
 /**************** EXTRA CODE SECTION ****************/
@@ -417,6 +431,30 @@ a:hover {
 	color: #535556;
 	font-size: 21px;
 }
+
+.imgContainer {
+	position: relative;
+	text-align: center;
+}
+
+.imgContainer h2 {
+	font-family: 'Cabin', sans-serif;
+	margin-top: 220px;
+}
+
+.imgContainer .imgHover {
+	position: absolute;
+	display: none;
+	color: #fff;
+	width: 285px;
+	height: 430px;
+}
+
+.imgContainer:hover .imgHover{
+	display: block;
+	background: rgba(0,0,0,0.3);
+}
+
 /***************/
 
 /****Footer Area****/
@@ -440,6 +478,11 @@ a:hover {
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 40px;
+}
+
+#socialMedia img {
+	width: 40px;
+	height: 40px;
 }
 
 #youtube, #twitter, #facebook {
