@@ -28,13 +28,43 @@
     </header><!--end mainHeader-->
     <div id="siteContainer">
     <main>
-        <section id="heroContact">
-            <img src="">
-            <div id="textContact"></div><!--end textContact-->
-        </section><!--end heroContact-->
+        <section id="contactArea">
+            <img src="images/Img_Contact.jpg" alt="greyscale cookie">
+            <div id="textContact">
+                <h2>CONTACT US</h2>
+                <div class="iconandText"><img src="images/add.svg" class="contactIcon" alt="address icon"><p>888 Dundas Street, London, ON.</p></div>
+                <div class="iconandText"><img src="images/mail.svg" class="contactIcon" alt="email icon"><p>theelkcafe@gmail.com</p></div>
+                <div class="iconandText"><img src="images/phone.svg" class="contactIcon" alt="phone icon"><p>(01) 226.288.8898</p></div>
+                <h2>OPENING HOURS</h2>
+                <p>Mon - Fri: 10AM - 10PM</p>
+                <p>Sat - Sun: 10AM - 7PM</p>
+            </div><!--end textContact-->
+        </section><!--end contactArea-->
         <section id="contentCon">
-            <div id="content1"><p>Content Area 1</p></div><!--end content1-->
-            <div id="content2"><p>Content Area 2</p></div><!--end content2-->
+            <div id="content1">
+                <hr class="hrQuestion">
+                <h2>HAVE A QUESTION?</h2>
+                <p>Send us a message! We will get back to you as soon as possible.</p>
+                <hr class="hrQuestion">
+            </div><!--end content1-->
+            <div id="content2">
+                <form id="contactForm" action="form.php" method="post">
+                    <h2 class="hidden">Contact Form</h2>
+                    <label>Name*</label><br>
+                    <div id=nameGroup>    
+                        <input type="text" required class="inputBox" id="firstName">
+                        <input type="text" required class="inputBox" name="lastName">
+                    </div><!--end nameGroup-->
+                    <div id="subName"><p id="subNameMargin">First Name</p><p>Last Name</p></div><!--end subName-->
+                   <label>Email Address*</label><br>
+                   <input type="email" required class="inputBox" name="email"><br>
+                   <label>Subject*</label><br>
+                   <input type="text" required class="inputBox"><br>
+                   <label>Message*</label><br>
+                   <textarea required class="textArea"></textarea><br>
+                   <input type="submit" value="SUBMIT" id="submit">
+                </form><!--end contaxtForm-->
+            </div><!--end content2-->
         </section><!--end contentCon-->
     </main> 
     <footer id="mainFooter">

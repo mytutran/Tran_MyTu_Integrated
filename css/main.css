@@ -198,24 +198,50 @@ a:hover {
 
 /* Open Contact */
 #contentCon {
-	margin-top: 40px;
+	margin-top: 120px;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
 	display: flex;
-	flex-direction: row;
-  	justify-content: flex-start;
+	flex-direction: column;
+  	justify-content: center;
 }
 
 #content1 
 {
-	width: 440px;
+	margin-bottom: 120px;
+	text-align: center;
 }
 
-#content2 
-{
-	margin-left: auto;
-	width: 440px;
+#content1 h2 {
+	color: #b18846;
+	margin: 0;
 }
+
+#content1 p {
+	font-size: 21px;
+	color: #535556;
+	display: block;
+	padding: 10px;
+	font-weight: 500;
+}
+
+#content2 label {
+	font-size: 23px;
+	font-weight: 600;
+	color: #19285b;
+}
+
+#content2 p {
+	font-size: 11px;
+	font-weight: 600;
+	color: #19285b;
+}
+
+#content2 input {
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
 /* Close Contact */
 
 /**************** EXTRA CODE SECTION ****************/
@@ -455,6 +481,112 @@ a:hover {
 	background: rgba(0,0,0,0.3);
 }
 
+/***************/
+
+/*==========On Contact Page==========*/
+#contactArea {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#textContact {
+	margin-left: 100px;
+	padding-top: 60px;
+
+}
+
+#textContact p {
+	font-size: 18px;
+	color: #1a222d;
+	line-height: 30px;
+}
+
+#textContact h2{
+	color: #b18846;
+	text-align: left;
+}
+
+.contactIcon {
+	width: 30px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+
+.iconandText {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.hrQuestion {
+	width: 600px;
+	height: 5px;
+	background-color: #19285b;
+}
+
+#contactForm {
+	margin-left: 160px;
+}
+
+#nameGroup {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#nameGroup input {
+	width: 268px;
+	height: 25px;
+	border: 2px solid #19285b;
+	margin-bottom: 20px;
+}
+
+#firstName {
+	margin-right: 70px;
+}
+
+#subName {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+#subNameMargin {
+	margin-right: 295px;
+}
+
+.inputBox {
+	width: 600px;
+	height: 25px;
+	border: 2px solid #19285b;
+	margin-bottom: 20px;
+}
+
+.textArea {
+	width: 600px;
+	height: 80px;
+	border: 2px solid #19285b;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+#submit {
+	text-align: center;
+	background-color: #cb923b;
+	border: none;
+	width: 130px;
+	color: #13324f;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 10px 5px 10px 5px;
+}
+
+#submit:hover {
+	background-color: #b45727;
+}
 /***************/
 
 /****Footer Area****/
