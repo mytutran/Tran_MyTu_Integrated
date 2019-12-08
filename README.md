@@ -4,7 +4,9 @@
 
 ### Prerequisites
 
-Chosen Subject for website: The Elk Cafe
+![The Elk Café](images/Logo_Main.svg "The Elk Café Logo")
+
+Chosen Subject for website: The Elk Café
 
 3 pages: index.html (Home), menu.html (Menu), contact.html (Contact)
 
