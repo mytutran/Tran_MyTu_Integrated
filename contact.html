@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Elk Café — Contact</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Signika:700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="hidden">Welcome to The Elk Café</h1>
+    <section id="topBar">
+        <h2 class="hidden">Top Bar</h2>
+        <p class="topAnnounce">WE ARE NOW OPEN 7 DAYS A WEEK!</p>
+    </section><!--end topBar-->
+    <header id="mainHeader">
+            <div id="logo"><img src="images/Logo_Main.svg" alt="the elf cafe logo"></div><!--end logo-->
+            <nav id="mainNav">
+            <h2 class="hidden">Main Navigation</h2>
+              <ul>  
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="#">APPLY NOW</a></li>
+                    <li><a href="#">CONTACT</a></li>
+              </ul>
+            </nav><!--end mainNav-->
+    </header><!--end mainHeader-->
+    <div id="siteContainer">
+    <main>
+        <section id="contactArea">
+            <img src="images/Img_Contact.jpg" alt="greyscale cookie">
+            <div id="textContact">
+                <h2>CONTACT US</h2>
+                <div class="iconandText"><img src="images/add.svg" class="contactIcon" alt="address icon"><p>888 Dundas Street, London, ON.</p></div>
+                <div class="iconandText"><img src="images/mail.svg" class="contactIcon" alt="email icon"><p>theelkcafe@gmail.com</p></div>
+                <div class="iconandText"><img src="images/phone.svg" class="contactIcon" alt="phone icon"><p>(01) 226.288.8898</p></div>
+                <h2>OPENING HOURS</h2>
+                <p>Mon - Fri: 10AM - 10PM</p>
+                <p>Sat - Sun: 10AM - 7PM</p>
+            </div><!--end textContact-->
+        </section><!--end contactArea-->
+        <section id="contentCon">
+            <div id="content1">
+                <hr class="hrQuestion">
+                <h2>HAVE A QUESTION?</h2>
+                <p>Send us a message! We will get back to you as soon as possible.</p>
+                <hr class="hrQuestion">
+            </div><!--end content1-->
+            <div id="content2">
+                <form id="contactForm" action="form.php" method="post">
+                    <h2 class="hidden">Contact Form</h2>
+                    <label>Name*</label><br>
+                    <div id=nameGroup>    
+                        <input type="text" required class="inputBox" id="firstName">
+                        <input type="text" required class="inputBox" name="lastName">
+                    </div><!--end nameGroup-->
+                    <div id="subName"><p id="subNameMargin">First Name</p><p>Last Name</p></div><!--end subName-->
+                   <label>Email Address*</label><br>
+                   <input type="email" required class="inputBox" name="email"><br>
+                   <label>Subject*</label><br>
+                   <input type="text" required class="inputBox"><br>
+                   <label>Message*</label><br>
+                   <textarea required class="textArea"></textarea><br>
+                   <input type="submit" value="SUBMIT" id="submit">
+                </form><!--end contaxtForm-->
+            </div><!--end content2-->
+        </section><!--end contentCon-->
+    </main> 
+    <footer id="mainFooter">
+            <div id="socialMedia">
+                <div id="youtube">
+                    <a href="https://www.youtube.com">
+                    <img src="images/youtube.svg" alt="youtube icon"></a>
+                </div><!--end youtube-->
+                <div id="twitter">
+                    <a href="https://www.twitter.com">
+                    <img src="images/twitter.svg" alt="twitter icon"></a>
+                </div><!--end twitter-->
+                <div id="facebook">
+                    <a href="https://www.facebook.com">
+                    <img src="images/facebook.svg" alt="facebook icon"></a>
+                </div><!--end facebook-->
+            </div><!--end SocialMedia-->
+            <div id="footerNav">
+                <nav>
+                <h2 class="hidden">Footer Navigation</h2>
+                    <ul>  
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="#">APPLY NOW</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                     </ul>
+                </nav>
+            </div><!--end FooterNav-->
+            <div id="copyRight"><p>© COPYRIGHT 2019. ALL RIGHTS RESERVED. THE ELK CAFÉ 2019</p></div><!--end Copyright-->
+    </footer><!--end mainFooter-->
+    </div><!--end siteContainer-->
+<script src="js/main.js"></script>    
+</body>
+</html>

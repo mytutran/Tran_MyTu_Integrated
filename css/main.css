@@ -1,0 +1,628 @@
+@charset "UTF-8";
+
+/* Open Presets */
+p {
+	margin: 0;
+}
+
+
+body {
+	font-family: 'Cabin', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Signika', sans-serif;
+ font-weight: 700;	
+}
+
+h2 {
+	font-size:38px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+
+div,p,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img 
+{ 
+	border: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+
+}
+nav li a {
+	padding-right: 30px;
+	display: inline;
+}
+
+a {
+	color: #13324f;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #b28846;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.hidden
+{
+	display: none;
+}
+/* Close Presets */
+
+/* Open TopBar */
+#topBar
+{
+	background-color: #13324f;
+	padding: 20px 0 20px 0;
+}
+/* Close TopBar */
+
+/* Open SiteContainer */ 
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* Close SiteContainer */
+
+/* Open Header */
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: #fff;
+	border-bottom: solid 2px #DDD;
+}
+
+#logo
+{
+	padding-top: 20px;
+	width: 200px;
+	height: 160px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+#mainNav 
+{
+	padding-top: 120px;
+	margin-left: auto;
+	width: 700px;
+}
+/* Close Header */
+
+/* Open Footer */
+#mainFooter 
+{
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	text-align: center;
+}
+
+#mainFooter nav li a {
+	font-weight: 600;
+	font-size: 18px;
+	padding-right: 20px;
+}
+
+#footerNav
+{
+	font-size: 16px;
+	margin: 10px 0px 10px 0px;
+}
+
+#copyRight 
+{
+	color: #13324f;
+	font-weight: 500;
+	font-size: 13px;
+}
+/*Close Footer*/
+
+/* Open Index */
+#promo 
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+#productInfoIndex
+{
+	display: flex;
+	flex-direction: column;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+}
+
+.productDescLargeLeft, .productDescLargeRight 
+{
+	margin-top: 40px;
+}
+/* Close Index */
+
+/* Open Menu */
+#promoTextBox
+{
+	width: 320px;
+	height: 350px;
+	background-color: #1a222d;
+}
+
+#productInfoMenu 
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-around;
+	border-bottom: solid 1px #DDD;
+	flex-wrap: wrap;
+	width: 650px;
+	margin: 0 auto;
+}
+
+.productDesc 
+{
+	width: 285px;
+	height: 430px;
+	padding-bottom: 50px;
+}
+
+/* Close Menu */
+
+/* Open Contact */
+#contentCon {
+	margin-top: 120px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+}
+
+#content1 
+{
+	margin-bottom: 120px;
+	text-align: center;
+}
+
+#content1 h2 {
+	color: #b18846;
+	margin: 0;
+}
+
+#content1 p {
+	font-size: 21px;
+	color: #535556;
+	display: block;
+	padding: 10px;
+	font-weight: 500;
+}
+
+#content2 label {
+	font-size: 23px;
+	font-weight: 600;
+	color: #19285b;
+}
+
+#content2 p {
+	font-size: 11px;
+	font-weight: 600;
+	color: #19285b;
+}
+
+#content2 input {
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+/* Close Contact */
+
+/**************** EXTRA CODE SECTION ****************/
+
+/****Buttons****/
+.buttonTrans {
+	text-align: center;
+	border: 2px solid #cb923b;
+	background-color: transparent;
+	color: #fff;
+	width: 110px;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 5px 0px 5px 0px;
+	margin-top: 15px;
+}
+
+.buttonTrans:hover {
+	background-color: #cb923b;
+}
+
+.buttonYellow {
+	text-align: center;
+	background-color: #cb923b;
+	border: none;
+	width: 130px;
+	margin-top: 10px;
+	color: #13324f;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 10px 5px 10px 5px;
+
+}
+
+.buttonYellow:hover {
+	background-color: #b45727;
+}
+/***************/
+
+/*==========On Index Page==========*/
+
+
+/****Top Bar****/
+.topAnnounce {
+	font-size: 20px;
+	color: #dbbf76;
+	text-align: center;
+}
+/***************/
+
+/****Promo Hero Area****/
+#promotextIndex {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 160px;
+	width: 600px;
+	text-align: center;	
+}
+
+#promotextHero	{
+	color: #ccdce1;
+	font-size: 18px;
+	padding: 20px 0px 20px 0px;
+	line-height: 25px;
+}
+
+.subtitleHero {
+	color: #a9b4b7;
+	font-size: 20px;
+
+}
+
+#titleHero {
+	color: #b28846;
+	font-weight: 600;
+	font-family: 'Cabin', sans-serif;
+	font-size: 62px;
+	margin: 0;
+}
+
+.promoWinter {
+	width: 920px;
+	background-color: #272e46;
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+.promoWinter p {
+	text-align: center;
+	color: #a9b4b7;
+	font-size: 18px;
+	display: block;
+}
+
+#h2Winter {
+	text-align: center;
+	color: #ee834d;
+	padding: 20px;
+	margin: 0;
+}
+/***************/
+
+/****Products Area****/
+#product1Index {
+	width: 350px;
+	height: 350px;
+	float: right;
+	background-color: #212a33;
+	text-align: left;
+}
+
+#product2Index {
+	width: 350px;
+	height: 350px;
+	float: left;
+	background-color: #212a33;
+	text-align: left;
+}
+
+.producttextWrap {
+	width: 265px;
+	height: 240px;
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+.producttextWrap h2 {
+	font-family: 'Cabin', sans-serif;
+	color: #cb923c;
+	font-size: 30px;
+	text-align: left;
+}
+
+.producttextWrap p {
+	font-family: 'Cabin', sans-serif;
+	color: #a9b4b7;
+	font-size: 18px;
+	text-align: left;
+	margin: 50px 0px 15px 0px;
+	line-height: 25px;
+}
+/***************/
+
+/*==========On Menu Page==========*/
+#bannerTitle {
+	position: absolute;
+	text-align: left;
+	line-height: 50px;
+	margin-left: 280px;
+	margin-top: 100px;
+}
+
+#h2Banner {
+	font-family: 'Cabin', sans-serif;
+	color: #b18846;
+	font-size: 132px;
+}
+
+#textBanner {
+	color: #fff; 
+	font-size: 50px;
+}
+
+#bannerTextWrap{
+	margin-top: 70px;
+	width: 300px;
+	height: 250px;
+}
+
+#bannerTextWrap h2 {
+	font-family: 'Cabin', sans-serif;
+	color: #b18846;
+	font-size: 30px;
+	text-align: center;
+}
+
+#bannerTextWrap p {
+	font-family: 'Cabin', sans-serif;
+	color: #a9b4b7;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 45px;
+	line-height: 25px;
+}
+
+#bannerTextWrap button {
+	margin-left: 100px;
+}
+
+#menuIntro {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#menuTextBox {
+	text-align: center;
+	width: 680px;
+	line-height: 22px;
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+
+#menuTextBox hr {
+	width: 220px;
+	background-color: #b18846;
+	height: 2px;
+}
+
+#menuTextBox p {
+	color: #535556;
+	font-size: 21px;
+}
+
+.imgContainer {
+	position: relative;
+	text-align: center;
+}
+
+.imgContainer h2 {
+	font-family: 'Cabin', sans-serif;
+	margin-top: 220px;
+}
+
+.imgContainer .imgHover {
+	position: absolute;
+	display: none;
+	color: #fff;
+	width: 285px;
+	height: 430px;
+}
+
+.imgContainer:hover .imgHover{
+	display: block;
+	background: rgba(0,0,0,0.3);
+}
+
+/***************/
+
+/*==========On Contact Page==========*/
+#contactArea {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#textContact {
+	margin-left: 100px;
+	padding-top: 60px;
+
+}
+
+#textContact p {
+	font-size: 18px;
+	color: #1a222d;
+	line-height: 30px;
+}
+
+#textContact h2{
+	color: #b18846;
+	text-align: left;
+}
+
+.contactIcon {
+	width: 30px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+
+.iconandText {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.hrQuestion {
+	width: 600px;
+	height: 5px;
+	background-color: #19285b;
+}
+
+#contactForm {
+	margin-left: 160px;
+}
+
+#nameGroup {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#nameGroup input {
+	width: 268px;
+	height: 25px;
+	border: 2px solid #19285b;
+	margin-bottom: 20px;
+}
+
+#firstName {
+	margin-right: 70px;
+}
+
+#subName {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+#subNameMargin {
+	margin-right: 295px;
+}
+
+.inputBox {
+	width: 600px;
+	height: 25px;
+	border: 2px solid #19285b;
+	margin-bottom: 20px;
+}
+
+.textArea {
+	width: 600px;
+	height: 80px;
+	border: 2px solid #19285b;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+#submit {
+	text-align: center;
+	background-color: #cb923b;
+	border: none;
+	width: 130px;
+	color: #13324f;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 10px 5px 10px 5px;
+}
+
+#submit:hover {
+	background-color: #b45727;
+}
+/***************/
+
+/****Footer Area****/
+#newsLetter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#newsLetterBox {
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	width: 300px;
+	height: 30px;
+	margin: 25px;
+}
+
+#socialMedia {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+#socialMedia img {
+	width: 40px;
+	height: 40px;
+}
+
+#youtube, #twitter, #facebook {
+	padding-right: 10px;
+}
+
+#youtube:hover, #twitter:hover, #facebook:hover {
+	opacity: 0.8;
+}
+/***************/
+
